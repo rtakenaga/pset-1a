@@ -1,0 +1,12 @@
+/*Custom Style Sheet*/
+html, body {
+  height: 100%
+  width: 100%
+}
+#hero {
+  background: url('../img/Soccer_background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%
+  width: 100%
+}
