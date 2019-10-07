@@ -1,84 +1,138 @@
 <!DOCTYPE html>
-
 <html>
-	<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, intitial-scale=1">
-			<link rel="stylesheet" href="style.css"/>
-		<title>All About Soccer!</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> All About Soccer! | Welcome</title>
+    <link rel="stylesheet" href="Images\Styles.css">
+  </head>
 
-	</head>
+  <body>
+    <header>
+      <div class="container">
+          <div id="Home">
+            <h1>All About Soccer!</h1>
+          </div>
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Basic_Rules.html">Basic Rules</a></li>
+            <li><a href="Offense.html">Offense</a></li>
+            <li><a href="Midfield.html">Midfield</a></li>
+            <li><a href="Defense.html">Defense</a></li>
+            <li><a href="Players.html">Players</a></li>
 
-	<body style=background-color:#C5EDD4 >
+        </ul>
+      </nav>
+      </div>
+    </header>
 
-		<div id="hero"></div>
-		<div class="topnav">
-	<center><table border=5 cellpadding=10>
-		<tr>
-  		<th><a class="active" href="#home">Home</a></th>
-  		<th><a href="Basic_Rules.html">Basic Rules</a></th>
-	  	<th><a href="Offense.html">Offense</a></th>
-  		<th><a href="Midfield.html">Midfield</a></th>
-			<th><a href="Defense.html">Defense</a></th>
-			<th><a href="Players.html">Players</a></th>
-		</tr>
-	</table></center>
-</div>
-		<center> <h1>All About Soccer</h1> </center>
 
-		<hr>
-		<center> <img src="Images/HomepagePicture.sized-1000x1000.jpg" alt="Home Soccer" height="400" width="600" border=5> </center>
-		<h2> Introduction to Soccer</h1>
-		<p>
-			Soccer, also known as football around the world, is the most popular sport in the world. Soccer is played at all levels ranging from the youngest kids to the professionals. A large tournament is held every four years called the <a href="https://en.wikipedia.org/wiki/FIFA_World_Cup">World Cup</a> and players from around the world come with their international team to play. About 3.5 billion people watch the World Cup.
-		</p>
-		<br></br>
-		<h3>Recent World Cup Winners</h3>
-		<table border="1" cellpadding="5">
-			<tr>
-						<th>Year</th>
-						<th>Country</th>
-				</tr>
-				<tr>
-					<td>2018</td>
-					<td>France</td>
-				</tr>
-				<tr>
-					<td>2014</td>
-					<td>Germany</td>
-				</tr>
-				<tr>
-					<td>2010</td>
-					<td>Spain</td>
-				</tr>
-				<tr>
-					<td>2006</td>
-					<td>Italy</td>
-				</tr>
-				<tr>
-					<td>2002</td>
-					<td>Brazil</td>
-				</tr>
-	</table>
-			<center> <img src="Images/WorldCup.jpg" alt="World Cup" height="500" width="820" border=5> </center>
-		<p>
-			The game was created more than 2,000 years ago in ancient China, Greece, and Rome but the English transformed the game into what it is today. They created the main rule of using no hands. As the years passed, the game developed and more rules started to be implemented.
 
-		</p>
-		<center><img src="Images/History.jpg" alt="History Soccer" height="500"width="850" border="5"></center>
-		<p>
+    <section id="showcase">
+      <div class="container">
+        <h1>Introduction to Soccer</h1>
+        <p>
+          Soccer, also known as football globally, is the most popular sport in the world. Soccer is played at all levels ranging from the youngest kids to the professionals.
+          A large tournament is held every four years called the World Cup and players from around the world come with their international team to play. About 3.5 billion people watch the World Cup.
 
+        </p>
+      </div>
+    </section>
+
+
+<!-- Search Bar-->
+    <section id="search">
+      <div class="container">
+        <h1>Stay Updated with the New Soccer News</h1>
+        <form>
+          <input type="email" placeholder="Enter Email">
+          <button type="submit" class="button1">Sign Up</button>
+        </form>
+      </div>
+    </section>
+
+<!-- Boxes-->
+  <div id="boxes_title">
+    <h1>Click the Pitures to Find Out More!</h1>
+  <div>
+    <section id=boxes>
+      <div class="container">
+        <div class="box">
+          <a href="Basic_Rules.html"><img src="./Images/Basic_Rules.png"></a>
+          <h3>Basic Rules</h3>
+        </div>
+        <div class="box">
+        <div id="Offense">
+          <a href="Basic_Rules.html"><img src="./Images/Soccer.png"></a>
+          <h3>Offense</h3>
+        </div>
+        </div>
+        <div class="box">
+        <div id="Midfield">
+          <a href="Midfield.html"><img src="./Images/Midfield_Pic.png"></a>
+          <h3>Midfield</h3>
+        </div>
+        </div>
+        <div class="box">
+          <a href="Defense.html"><img src="./Images/Defense.png" ></a>
+          <h3>Defense</h3>
+        </div>
+        <div class="box">
+          <a href="Players.html"><img src="./Images/Players.jpg"></a>
+          <h3>Players</h3>
+        </div>
+      </div>
+    </section>
+
+
+<!-- Content -->
+
+<div class="container">
+  <h1> Introduction to Soccer</h1>
+  <p>
+    Soccer, also known as football around the world, is the most popular sport in the world. Soccer is played at all levels ranging from the youngest kids to the professionals. A large tournament is held every four years called the <a href="https://en.wikipedia.org/wiki/FIFA_World_Cup">World Cup</a> and players from around the world come with their international team to play. About 3.5 billion people watch the World Cup.
+  </p>
+  <h1>Recent World Cup Winners</h1>
+  <table>
+    <tr>
+        <th>Year</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>2018</td>
+        <td>France</td>
+      </tr>
+      <tr>
+        <td>2014</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>2010</td>
+        <td>Spain</td>
+      </tr>
+      <tr>
+        <td>2006</td>
+        <td>Italy</td>
+      </tr>
+      <tr>
+        <td>2002</td>
+        <td>Brazil</td>
+      </tr>
+    </table>
+    <h1>History</h1>
+    <p>
+      The game was created more than 2,000 years ago in ancient China, Greece, and Rome but the English transformed the game into what it is today. They created the main rule of using no hands. As the years passed, the game developed and more rules started to be implemented.
+    </p>
+    <h1>Overall</h1>
+    <p>
 Soccer is a great form of exercise and also works out dexterity and balance. Furthermore, the game can be played almost anywhere as long as you have a ball and a flat surface to play on. The feeling of scoring a goal is extremely rewarding and that is why many professionals want to continue their career. When you have the time, definitely try playing some soccer!
 (Check out more at this <a href="https://en.wikipedia.org/wiki/Association_football">link</a> to find out more about soccer!)
-
 		</p>
-		<footer>
-			<center>
-		<br></br><br></br><br></br>
+</div>
+    <footer>
 		<p>	© 2019-2020 </p>
 		<p><a href="https://www.ucvts.tec.nj.us">Go to UCVTS Home Page</a><br></br><a href="https://www.ucvts.tec.nj.us/Page/471">Go to AIT Home Page</a></p>
-	</center>
 		</footer>
-
-	</body>
+  </body>
 </html>
