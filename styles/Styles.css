@@ -1,14 +1,4 @@
 /*Custom Style Sheet*/
-
-
-/* GLOBAL */
-*{
-  margin:0;
-  padding:0;
-}
-
-
-
 body{
   font-family: Arial, Helvetica, sans-serif;
   font-size:15px;
@@ -34,7 +24,7 @@ th {
   background-color: #4CAF50;
   color: white;
 }
-
+/* Gloabal*/
 .container{
   width:80%;
   margin:auto;
@@ -111,7 +101,8 @@ header a:hover{
 }
 
 
-/*Showcase*/
+
+
 #showcase{
   min-height:400px;
   background:url('showcase.jpg') no-repeat -570px -800px;
@@ -157,7 +148,6 @@ header a:hover{
 /* Boxes */
 #boxes_title{
   text-align:center;
-  padding-top: 10px;
 }
 #boxes{
   margin-top:20px;
@@ -175,7 +165,7 @@ header a:hover{
   width:90px;
 }
 #boxes .box #Midfield img{
-  height:80%;
+  height: 80%;
   width:80%;
 }
 #boxes .box #Offense img{
@@ -183,15 +173,7 @@ header a:hover{
   width:55%;
 }
 
-img {
 
--webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 50);
-
--moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 50);
-
-box-shadow:         7px 7px 5px rgba(50, 50, 50, 50);
-
-}
 
 footer{
   padding:20px;
