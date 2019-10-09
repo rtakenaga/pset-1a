@@ -49,8 +49,6 @@ th {
 }
 .image{
   margin:20px;
-
-
 }
 
 
@@ -110,6 +108,7 @@ header a:hover{
 
 
 /*Showcase*/
+
 #showcase{
   min-height:400px;
   background:url('../Images/showcase.jpg') no-repeat -570px -800px;
@@ -153,6 +152,8 @@ header a:hover{
 
 
 /* Boxes */
+
+
 #boxes_title{
   text-align:center;
   padding-top: 10px;
@@ -183,6 +184,15 @@ header a:hover{
 img {
   border-radius: 8px;
 }
+
+#text-padding{
+  padding: 10px;
+}
+#text-padding h1{
+  padding: 10px;
+}
+
+
 /*Footer*/
 
 footer{
